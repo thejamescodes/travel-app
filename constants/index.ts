@@ -22,28 +22,28 @@ export const NAV_LINKS = [
       icon: '/map.svg',
       variant: 'green',
       description:
-        'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+        'With our app, you can confidently explore and climb—even in remote areas. Enjoy offline maps that work anytime, anywhere, even without a signal.',
     },
     {
       title: 'Set an adventure schedule',
       icon: '/calendar.svg',
       variant: 'green',
       description:
-        "Schedule an adventure with friends. On holidays, there are many interesting offers from Let's Camp. That way, there's no more discussion",
+        "Plan your next adventure with friends! During the holidays, Let's Camp offers exciting deals—so you can skip the debate and start exploring.",
     },
     {
       title: 'Technology using augment reality',
       icon: '/tech.svg',
       variant: 'green',
       description:
-        'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+        'Experience the future of navigation with augmented reality guiding your hike—from deep forests to mountain peaks. No internet? No problem. Our cutting-edge technology works offline.',
     },
     {
       title: 'Many new locations every month',
       icon: '/location.svg',
       variant: 'orange',
       description:
-        'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+        'Discover new hiking spots every month! Our global community of climbers shares their best trails and experiences, bringing you fresh adventures year-round.',
     },
   ];
   
