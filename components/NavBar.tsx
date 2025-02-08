@@ -24,22 +24,23 @@ const NavBar = () => {
         <ul className="hidden h-full gap-12 lg:flex">
           {NAV_LINKS.map((link) => (
             <Link
-              href={link.href}
+              href={`#${link.href}`}
               key={link.key}
               className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold"
+             // scroll={false} // Prevents default scroll behavior
+             
             >
               {link.label}
             </Link>
           ))}
         </ul>
-
         <div className="lg:flexCenter hidden">
-          <Button
+          {/* <Button
             type="button"
             title="Login"
             icon="/user.svg"
             variant="btn_dark_green"
-          />
+          /> */}
         </div>
 
         <Image
@@ -77,7 +78,7 @@ const NavBar = () => {
           {NAV_LINKS.map((link) => (
             <li key={link.key}>
               <Link
-                href={link.href}
+                href={`#${link.href}`}
                 className="text-gray-700 hover:text-gray-900 block py-2 transition-colors"
                 onClick={toggleMenu}
               >
@@ -86,12 +87,12 @@ const NavBar = () => {
             </li>
           ))}
           <li className="mt-4">
-            <Button
+            {/* <Button
               type="button"
               title="Login"
               icon="/user.svg"
               variant="btn_dark_green"
-            />
+            /> */}
           </li>
         </ul>
       </div>

@@ -1,10 +1,10 @@
 // NAVIGATION
 export const NAV_LINKS = [
-    { href: '/', key: 'home', label: 'Home' },
-    { href: '/', key: 'how_letscamp_work', label: `How Let's Camp Work?` },
-    { href: '/', key: 'services', label: 'Services' },
-    { href: '/', key: 'pricing ', label: 'Pricing ' },
-    { href: '/', key: 'contact_us', label: 'Contact Us' },
+    { href: 'home', key: 'home', label: 'Home' },
+    { href: 'camps', key: 'Camps', label: `Camps` },
+    { href: 'guide', key: 'Guide', label: 'Guide' },
+    { href: 'features', key: 'Features ', label: 'Features ' },
+    { href: 'aboutus', key: 'About Us', label: 'About Us' },
   ];
   
   // CAMP SECTION
