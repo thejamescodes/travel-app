@@ -13,6 +13,9 @@
 body {
   font-family: Inter;
 }
+html, body {
+  background-color: #ffffff; /* or any other light color */
+}
 
 @layer utilities {
   .btn_white { 
